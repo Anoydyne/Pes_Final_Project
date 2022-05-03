@@ -106,7 +106,7 @@ humidity sensing is also implemented and the data of humidity is extracted from 
 # Google Drive Link for video- </br>
 https://drive.google.com/file/d/1QSVkafFUy4M6mZ3zhJoB_b7JH6yf-uSr/view?usp=sharing </br>
 
-Implementation in the video:-
+Implementation in the video:- </br>
 a) Introduction to my project hardware</br>
 b) Showing testing of PWM and Cbfifo</br>
 c) UART command processor starts. Showing output of temperature and CO levels</br>
