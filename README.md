@@ -29,11 +29,11 @@ safe states before the start of the main function. <br/>
 	5.	Type ‘CO’ to Print surrounding CO levels <br/>
 	6.	Type ‘Weather’ for Starting Weather Monitoring station <br/>    
 	7.	Type ‘Help’ to see weather options <br/>
-	7) UART is used to display the values of temperature, humidity and CO levels when the weather monitoring station starts. <br/> 
-	8) PWM is used for RGB LEDs that are used to indicate different situations. <br/>
-		- GREEN: indicates the safe state. <br/>
-		- YELLOW: indicates the warning state. <br/>
-		- RED: indicates the danger state. <br/>
+7) UART is used to display the values of temperature, humidity and CO levels when the weather monitoring station starts. <br/> 
+8) PWM is used for RGB LEDs that are used to indicate different situations. <br/>
+	- GREEN: indicates the safe state. <br/>
+	- YELLOW: indicates the warning state. <br/>
+	- RED: indicates the danger state. <br/>
 9) Systick timer and delay function is used to get the delay. <br/>
 
 
@@ -55,7 +55,7 @@ safe states before the start of the main function. <br/>
 14.sht21.c - Contains functions to get temperature and humidity values </br>
 15.timer.c- Contains functions for systic timer initialization and other functions </br>
 
-#UART conifguration 	</br>
+# UART conifguration 	</br>
 Baud Rate - 38400 </br>
 data bits -8 </br>
 stop bit- 2 </br>
@@ -73,7 +73,7 @@ h)	test_cbfifo.c & test_cbfifo.h </br>
 i)	timer.c & timer.h </br>
 j)	uart.c & uart.h </br>
 
-# TECHNOLOGY USED </br>
+# Technology Used </br>
 I chose this project because it will let me to work extensively with I2C, ADC, UART, and </br>
 PWM, particularly with I2C, which was taught in class but not included in any of the </br>
 assignments. I wanted to delve deeper into the UART, ADC, and PWM concepts that I </br>
@@ -82,7 +82,7 @@ messages on the terminal, PWM will be used to operate the RGB LED to signify var
 conditions, and ADC will be used to retrieve data from the MQ7 CO Sensor in my </br>
 project. </br>
 
-# THINGS TO LEARN IN ORDER TO DEVELOP THE PROJECT </br>
+# Things to learn in order to develop the project </br>
 To interface the external temperature sensor with the FRDM-KL25Z board, this project  </br>
 requires the learning of an I2C communication protocol. I predict that learning the I2C  </br>
 protocol and how it works will be necessary before developing code for it. In addition, I  </br>
