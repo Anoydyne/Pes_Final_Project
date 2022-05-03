@@ -1,0 +1,2 @@
+sht21.c:28:7:read_temperature	24	static
+sht21.c:39:7:read_humidity	24	static

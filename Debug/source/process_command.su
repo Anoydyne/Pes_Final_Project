@@ -1,0 +1,8 @@
+process_command.c:84:6:handle_author	16	static
+process_command.c:91:6:handle_hum	24	static
+process_command.c:103:6:handle_temp	24	static
+process_command.c:115:6:handle_co	24	static
+process_command.c:127:6:handle_weather	32	static
+process_command.c:184:6:handle_dump	24	static
+process_command.c:224:6:handle_help	16	static
+process_command.c:236:6:process_command	88	static
