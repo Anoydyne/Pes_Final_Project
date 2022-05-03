@@ -73,28 +73,6 @@ h)	test_cbfifo.c & test_cbfifo.h </br>
 i)	timer.c & timer.h </br>
 j)	uart.c & uart.h </br>
 
-# TECHNOLOGY USED </br>
-I chose this project because it will let me to work extensively with I2C, ADC, UART, and </br>
-PWM, particularly with I2C, which was taught in class but not included in any of the </br>
-assignments. I wanted to delve deeper into the UART, ADC, and PWM concepts that I </br>
-had learnt and implemented in earlier assignments. UART will be used to show </br>
-messages on the terminal, PWM will be used to operate the RGB LED to signify various </br>
-conditions, and ADC will be used to retrieve data from the MQ7 CO Sensor in my </br>
-project. </br>
-
-# THINGS TO LEARN IN ORDER TO DEVELOP THE PROJECT </br>
-To interface the external temperature sensor with the FRDM-KL25Z board, this project  </br>
-requires the learning of an I2C communication protocol. I predict that learning the I2C  </br>
-protocol and how it works will be necessary before developing code for it. In addition, I  </br>
-must use ADC to interface an external CO sensor and display the data on UART. In </br>
-assignment 7, I aim to learn about ADC, but I'll have to figure out extra procedures to </br>
-get data from an external sensor.</br>
-Apart from that, because I had developed UART and PWM in the previous assignment, </br>
-the implementation of these two concepts would strengthen the foundation of these two </br>
-concepts. In addition, after my project's functionality has been established, I intend to </br>
-implement a command processor. </br>
- 
-
 # Hardware Used </br>
 1. SHT21 </br>
 2. MQ7 </br>
