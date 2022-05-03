@@ -106,4 +106,16 @@ humidity sensing is also implemented and the data of humidity is extracted from 
 # Google Drive Link for video- </br>
 https://drive.google.com/file/d/1QSVkafFUy4M6mZ3zhJoB_b7JH6yf-uSr/view?usp=sharing </br>
 
+Implementation in the video:-
+a) Introduction to my project hardware</br>
+b) Showing testing of PWM and Cbfifo</br>
+c) UART command processor starts. Showing output of temperature and CO levels</br>
+d) The weather monitoring station starts.</br>
+e) Showing MQ7 output for weather monitoring using a lighter. As I am pointing lighter </br>
+directly towards the sensor, the CO levels fluctuate very quickly but I could capture all </br>
+three states.</br>
+f) Showing SHT21 output by blowing hot air on the sensor. I was able to demonstrate all 3 </br>
+levels of my project in this video.</br>
+g) Do let me know if something was not clear. I can demonstrate the output again.</br>
+
 Contact me if there is any issue with the video. </br>
